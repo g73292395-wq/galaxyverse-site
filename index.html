@@ -1,0 +1,91 @@
+
+<!DOCTYPE html>
+<html lang="uz">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GalaxyVerse</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+    <a href="#" class="logo">🪐 Galaxy<span>Verse</span></a>
+
+    <nav>
+        <a href="#home">Bosh sahifa</a>
+        <a href="#features">Imkoniyatlar</a>
+        <a href="#about">Biz haqimizda</a>
+        <a href="#contact">Kontakt</a>
+    </nav>
+
+    <button class="login" onclick="login()">🚀 Kirish</button>
+</header>
+
+<section class="hero" id="home">
+    <div class="stars"></div>
+
+    <div class="hero-content">
+        <p class="subtitle">KELAJAK SIZNI KUTMOQDA</p>
+
+        <h1>
+            Boshqa dunyo sari
+            <span>bir qadam oldinda!</span>
+        </h1>
+
+        <p class="description">
+            GalaxyVerse — bu cheksiz imkoniyatlar dunyosi.
+            Bu yerda tasavvur chegarasiz!
+        </p>
+
+        <div class="buttons">
+            <button onclick="start()">🚀 Boshlash →</button>
+            <button class="video" onclick="showVideo()">▶ Video ko'rish</button>
+        </div>
+    </div>
+
+    <div class="planet">
+        <div class="orbit"></div>
+    </div>
+</section>
+
+<section class="features" id="features">
+
+    <div class="feature">
+        <h2>🚀</h2>
+        <h3>Yangi imkoniyatlar</h3>
+        <p>Kelajak texnologiyalari endilikda siz uchun!</p>
+    </div>
+
+    <div class="feature">
+        <h2>🪐</h2>
+        <h3>Cheksiz koinot</h3>
+        <p>Koinot sirlarini birga kashf etamiz!</p>
+    </div>
+
+    <div class="feature">
+        <h2>⚡</h2>
+        <h3>Zamonaviy dizayn</h3>
+        <p>Eng ilg'or texnologiyalar bilan yaratilgan!</p>
+    </div>
+
+</section>
+
+<section class="about" id="about">
+    <h2>Biz haqimizda</h2>
+    <p>GalaxyVerse — bu faqat sayt emas, bu yangi dunyo!</p>
+</section>
+
+<section class="contact" id="contact">
+    <h2>Biz bilan bog'laning</h2>
+    <input type="text" id="name" placeholder="Ismingizni kiriting">
+    <button onclick="sendMessage()">Yuborish</button>
+</section>
+
+<footer>
+    © 2026 GalaxyVerse. Barcha huquqlar himoyalangan.
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
